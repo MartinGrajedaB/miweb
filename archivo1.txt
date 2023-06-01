@@ -1,4 +1,20 @@
-cd      - acceder a un directorio
-ls      - mostrar archivos en el directorio actual
-mkdir   - crear directorio (mkdir "nombre")
+Comanos simples de git
+
+ls          - Listado de archivos en el directorio actual
+pwd         - Muestra en que directorio se esta trabajando
+cd          - Accede a un directorio
+cd ..       - Retrocede una carpeta
+mkdir nomD  - crear directorio (mkdir "nombre")
+ls -a       - Muestra archivos ocultos
+cd .git     - Acede a la carpeta oculta .git
+clear       - Limpia todo BASH
+
+code .      - Abrir VScode
+    Una vez abierto el editor de texto, se muestra que se esta trabajando
+    en la carpeta que se creo anteriormente con el comando mkdir, hay iconos
+    para crear un archivo es necesario hacerlo desde el editor de texto
+
+        NombreDelArchivo.extesion
+
+
 cat     - mostrar cambios a archivo (cat "nombre")

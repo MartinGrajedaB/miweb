@@ -1,2 +1,25 @@
-hahahahaha
-hahahah
+    Comandos con "git" al inicio
+
+git --version           - muestra la version instalada de git
+
+Comandos de configuracion
+
+git config --global user.name "nombre apellido" -Configura nombre
+git config --global user.email xxxxxx@xxxx      -Configura email
+git config --global core.editor "code --wait"   -Ayuda al siguiente codigo
+git config --goba -e                            -Abre el editor (VScode)
+git config --global core.autocrlf true          -Elimina saltos de linea
+git config -h                                   -Muestra comandos de configuracion
+
+Comandos de GIT
+
+git init    - Inicializa un repositorio vacio
+git status              - Muestra los cambios
+git add nomA_1 nomA_2   - Agrega archivos (Dependiedo de cuantos se deseen agregar)
+git add *.extension     - Agrega todos los archivos con a extension especificada
+git add .               - Agrega todos los archivos agregados
+
+
+git commit -m "text"    - Agrega los cambios
+git merge nomRama       - Agrega los cambios de una rama
+
