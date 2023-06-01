@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 Texto de prueba
+=======
+Al cambiar de rama se necesita que los archivos se encuentren compartido entre ramas
+esto significa que el archivo que se va a trabajar en la rama pueda ser modificado en
+la rama creada
+
+1) Tendras que asegurarte que tu status se encuentre sin cambios
+2) realizaras los cambios en el archivo en cuestion
+3) al cambiar de rama los cambios realizados no se mostraran
+4) para que se empiecen a mmostrar ejectaras el comando: git merge...
+>>>>>>> ramab
