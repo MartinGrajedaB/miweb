@@ -16,5 +16,12 @@ code .      - Abrir VScode
 
         NombreDelArchivo.extesion
 
+rm nomA     - Remover archivo, posteriormente se tiene que volver a agregar el archivo borrado.
 
-cat     - mostrar cambios a archivo (cat "nombre")
+mv nomA nomB - Cambia el nombre de nomA a nomB
+    cuando el nombre de un archivo es cambiado, git deja de darle seguimiento,
+    por lo que tendra que ser agregado nuevamente
+
+    git add nomA nomB --- ya que ambos archivo fueron cambiados
+
+cat nomA        - Muestra el contenido del archivo
