@@ -1,2 +1,4 @@
-holaaa
-hajajahhajsa
+cd      - acceder a un directorio
+ls      - mostrar archivos en el directorio actual
+mkdir   - crear directorio (mkdir "nombre")
+cat     - mostrar cambios a archivo (cat "nombre")
