@@ -1,0 +1,47 @@
+Informacion acerca de comandos para la nube
+    Configuracion de Github
+
+1) New / Create repository
+    Repository name: xxxxx
+    Descrption: Optional
+    Public/Private
+2) Clickear en Create Repository
+3) ...or create a new repository from the command line
+    a) echo "# miweb" >>README.md
+    b) git init
+    c) git add README.md
+    d) git commit -m "First commit"
+    e) git branch -M maint
+    F) Git remote add origin URL
+    G) git push -u origin main
+4) Pegar F en BASH y presionar ENTER
+5) Pegar G en BASH y presionar ENTER
+    crea main en el repositorio que se encuentra en la nube
+    -Indicar nombre de usuario de github
+    -Igresar contraseña
+
+    Para la contraseña en el paso 5...
+a) Boton superior derecho
+b) Settings
+c) Develoer Settings
+d) Personal access tokens / Tokens (classic)
+e) Generate New Token / Classic
+f) Indicar nombre en "Note"
+g) Seleccionar todas las opciones de "repo"
+h) Click en "Generate New Token"
+i) Copiar el token generado y pegarlo en BASH / Ingresar contraseña
+
+6) Regresar a la pagina de las opciones del paso 3 y presionar F5
+    Mostrara los archivos que has subido exitosamente a la nube
+
+Para dar seguimiento al trabajo:
+
+Realizar cambios de codigo, etc. necesarios; al momento 
+de subirlos a la nube ir a la terminal, agregar los archivos con 
+"git add" & "git commit" para posteriormente utilizar el comando:
+
+    git psuh -> lo que lealizara los cambios
+
+Si se quiere guardar el proceso en una rama:
+1) Se crea la rama
+2) se sube a la nume con el comando: push -u origin nomRama
